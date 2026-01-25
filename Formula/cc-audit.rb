@@ -13,22 +13,22 @@ class CcAudit < Formula
   on_macos do
     on_arm do
       url "https://github.com/ryo-ebata/cc-audit/releases/download/v#{version}/cc-audit-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "8d38d0e8901f83cde01737decbb373ec01523f3055e6b1e892c669e443efa3dc"
     end
     on_intel do
       url "https://github.com/ryo-ebata/cc-audit/releases/download/v#{version}/cc-audit-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "720f7cecb9bcdb2c2c01f408f24dfbb1ed6828d0645e2310f7bd02cf4a433993"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ryo-ebata/cc-audit/releases/download/v#{version}/cc-audit-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "015b6d8b74f9f1e77860fa6d591eec496141b289060b9d05426440eb473315be"
     end
     on_intel do
       url "https://github.com/ryo-ebata/cc-audit/releases/download/v#{version}/cc-audit-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "ea196392657e6393f73e7a8fa2aedbbbbc124208238cd2d1e90e854f009c365b"
     end
   end
 
