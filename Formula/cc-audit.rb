@@ -1,34 +1,28 @@
-# Homebrew Formula for cc-audit
-# Copy this file to homebrew-tap/Formula/cc-audit.rb after updating SHA256 values
-#
-# To calculate SHA256 from release assets:
-#   curl -sL https://github.com/ryo-ebata/cc-audit/releases/download/vX.Y.Z/cc-audit-vX.Y.Z-TARGET.tar.gz | shasum -a 256
-#
 class CcAudit < Formula
   desc "Security auditor for Claude Code skills, hooks, and MCP servers"
   homepage "https://github.com/ryo-ebata/cc-audit"
-  version "0.4.1"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v#{version}/cc-audit-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "8d38d0e8901f83cde01737decbb373ec01523f3055e6b1e892c669e443efa3dc"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v2.0.0/cc-audit-v2.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "cc-audit-v2.0.0-aarch64-apple-darwin.sha256:e402068897723805a934e57e972359cffabf560eb60f5dcecdb3044bca7f843e"
     end
     on_intel do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v#{version}/cc-audit-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "720f7cecb9bcdb2c2c01f408f24dfbb1ed6828d0645e2310f7bd02cf4a433993"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v2.0.0/cc-audit-v2.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cc-audit-v2.0.0-x86_64-apple-darwin.sha256:2696da1c0c1e380a21dcb8262046c69c21c29c8cc2fa9600dc93bb1cd41f4137"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v#{version}/cc-audit-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "015b6d8b74f9f1e77860fa6d591eec496141b289060b9d05426440eb473315be"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v2.0.0/cc-audit-v2.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cc-audit-v2.0.0-aarch64-unknown-linux-gnu.sha256:aa5f9eb59d1b5c4040c9129de67e023c9bdef55b523093a834e3d6f97b198888"
     end
     on_intel do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v#{version}/cc-audit-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ea196392657e6393f73e7a8fa2aedbbbbc124208238cd2d1e90e854f009c365b"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v2.0.0/cc-audit-v2.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cc-audit-v2.0.0-x86_64-unknown-linux-gnu.sha256:f077bb13715c483519a94ac36c41ef0c51bed6c0e5a5fc4a11991e6c54997e6c"
     end
   end
 
