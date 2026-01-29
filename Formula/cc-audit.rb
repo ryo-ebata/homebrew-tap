@@ -1,28 +1,28 @@
 class CcAudit < Formula
   desc "Security auditor for Claude Code skills, hooks, and MCP servers"
   homepage "https://github.com/ryo-ebata/cc-audit"
-  version "3.2.2"
+  version "3.2.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.2.2/cc-audit-v3.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "cc-audit-v3.2.2-aarch64-apple-darwin.sha256:223373aa142341ed7eaf16fe6bce8730d58d25ece896b269744db22211e87d9a"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.2.3/cc-audit-v3.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "32ba69019c417e40dc32fa344b665eb4dcef6065fb64b170c7492b630ba5de97"
     end
     on_intel do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.2.2/cc-audit-v3.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "cc-audit-v3.2.2-x86_64-apple-darwin.sha256:fb381775acffea8d4af684aaba04191498260f9908624e16255759071ecfd563"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.2.3/cc-audit-v3.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "db85c1cccbc97013af1cdecc8428e3f5f9de1d54b84b0e81a3bc37a08aaeb023"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.2.2/cc-audit-v3.2.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cc-audit-v3.2.2-aarch64-unknown-linux-gnu.sha256:21d1612c35b3771ccdfa2d96fba55adec20d82a345766e87ae223f7457b6a2be"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.2.3/cc-audit-v3.2.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cfb8f15f30bcede2765a31fb14c86acadee18ebf753ea8784a40e950a659483b"
     end
     on_intel do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.2.2/cc-audit-v3.2.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cc-audit-v3.2.2-x86_64-unknown-linux-gnu.sha256:15b2be98e8c66fc448d1c21af52f634c6786df80e6e36ea33ecdb4c1bc7151a9"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.2.3/cc-audit-v3.2.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9932636a74d78fa1c7e07f1f5271afb70dfa437abce80b4960c9f149f905c453"
     end
   end
 
