@@ -1,28 +1,28 @@
 class CcAudit < Formula
   desc "Security auditor for Claude Code skills, hooks, and MCP servers"
   homepage "https://github.com/ryo-ebata/cc-audit"
-  version "3.22.14"
+  version "3.22.15"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.22.14/cc-audit-v3.22.14-aarch64-apple-darwin.tar.gz"
-      sha256 "01d9506e455181e01f2fc543603437d123e4070551f529adf304ca39b4dc2c94"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.22.15/cc-audit-v3.22.15-aarch64-apple-darwin.tar.gz"
+      sha256 "1f646ff6bcc3ea26f1ef916e470712cf3ad766bbab97821a7393d46fa943dc6d"
     end
     on_intel do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.22.14/cc-audit-v3.22.14-x86_64-apple-darwin.tar.gz"
-      sha256 "0ae6baff6d945e3c6bbaab8952cbb3f0355eaedcbf8d6a4c53f1f55eaefd8f09"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.22.15/cc-audit-v3.22.15-x86_64-apple-darwin.tar.gz"
+      sha256 "7225eac61b697282ef5478ea6efc431e44f1d07a6f3ab210f5bb8275c4ed5b1b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.22.14/cc-audit-v3.22.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "977a0ce81c6af850c2e6d93d79528758fb5ead6df9226c1496436e768459bf7a"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.22.15/cc-audit-v3.22.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3df895a6874b0321fe17806e22107bbff4b6eeb7ebd0f343157b1f8fb1aa5c02"
     end
     on_intel do
-      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.22.14/cc-audit-v3.22.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c3b726f9645bf72376ecac0c5430b5626d9b61526def496ef43684e203aeceb9"
+      url "https://github.com/ryo-ebata/cc-audit/releases/download/v3.22.15/cc-audit-v3.22.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4c7b053577ecb53e04402eae41e1663f763593dbba8b4d34a33b59f8e6ee9b2f"
     end
   end
 
